@@ -43,5 +43,6 @@
   },
   "prepublishOnly": "npm run build && cp -r ./es/* . && rm -rf ./es",
   "postpublish": "git clean -fd",
-  "release": "npm publish"
+  "release": "npm publish",
+  "sideEffects": ["./src/**/*.less"]
 }
