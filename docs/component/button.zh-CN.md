@@ -2,6 +2,6 @@
 
 ```jsx
 import React from 'react';
-import { Button } from 'saya_rui';
+import { Button } from 'rui_dumi';
 export default () => <Button>点击</Button>;
 ```
