@@ -1,7 +1,5 @@
-# 欢迎!
+---
+gapless: true
+---
 
-```jsx
-import React from 'react';
-
-export default () => <h2>欢迎</h2>;
-```
+<code src="./Home/index.jsx" inline />

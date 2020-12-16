@@ -1,7 +1,5 @@
-# Hello!
+---
+gapless: true
+---
 
-```jsx
-import React from 'react';
-
-export default () => <h2>Hello</h2>;
-```
+<code src="./Home/index.jsx" inline />
