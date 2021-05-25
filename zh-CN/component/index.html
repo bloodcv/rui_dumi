@@ -11,18 +11,28 @@
       type="image/x-icon"
       href="/rui_dumi/imgs/favicon.ico"
     />
-    <link rel="stylesheet" href="/rui_dumi/umi.82749b0a.css" />
     <script>
       window.routerBase = "/rui_dumi";
     </script>
     <script>
-      //! umi version: 3.3.2
+      //! umi version: 3.4.22
+    </script>
+    <script>
+      !(function () {
+        var e = localStorage.getItem("dumi:prefers-color"),
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches,
+          r = ["light", "dark", "auto"];
+        document.documentElement.setAttribute(
+          "data-prefers-color",
+          e === r[2] ? (t ? r[1] : r[0]) : r.includes(e) ? e : r[0]
+        );
+      })();
     </script>
     <title>rui_dumi</title>
   </head>
   <body>
     <div id="root"></div>
 
-    <script src="/rui_dumi/umi.9fabe2ad.js"></script>
+    <script src="/rui_dumi/umi.d3610cd5.js"></script>
   </body>
 </html>
